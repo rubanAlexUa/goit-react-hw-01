@@ -1,0 +1,34 @@
+.friends_container {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.friend_item {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.friends_avatar {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.friends_name {
+  font-size: 25px;
+  color: black;
+}
+
+.online {
+  font-size: 25px;
+  color: rgb(31, 175, 31);
+}
+
+.offline {
+  font-size: 25px;
+  color: red;
+}

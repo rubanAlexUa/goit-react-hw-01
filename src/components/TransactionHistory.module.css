@@ -1,0 +1,32 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tables_head {
+  background-color: #404040;
+  color: white;
+}
+
+.colomns_name {
+  border: 1px solid black;
+}
+
+.info_transaction {
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.colomns_name,
+.info_transaction {
+  padding: 8px;
+  text-align: center;
+}
+
+.row_transaction:nth-child(even) {
+  background-color: #b1b0b0;
+}
+
+.row_transaction:nth-child(odd) {
+  background-color: #ffffff;
+}
