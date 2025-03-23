@@ -1,7 +1,7 @@
 import c from "./FriendListItem.module.css";
 
-export default function FriendListItem({ friends }) {
-  const friendsList = friends.map((friend) => (
+export default function FriendListItem({ friend }) {
+  return (
     <li key={friend.id}>
       <div className={c.friend_item}>
         <img
@@ -16,6 +16,5 @@ export default function FriendListItem({ friends }) {
         </p>
       </div>
     </li>
-  ));
-  return <ul className={c.friends_container}>{friendsList}</ul>;
+  );
 }
